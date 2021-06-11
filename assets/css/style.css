@@ -147,11 +147,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #94c045;
+  color: #386FA4;
 }
 
 .navbar .getstarted {
-  background: #94c045;
+  background: #59A5D8;
   padding: 8px 25px;
   margin-left: 30px;
   border-radius: 50px;
@@ -160,7 +160,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar .getstarted:hover {
   color: #fff;
-  background: #9fc658;
+  background: #84D2F6;
 }
 
 .navbar .dropdown ul {
@@ -386,13 +386,13 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50px;
   transition: 0.5s;
   margin: 10px;
-  border: 2px solid #94c045;
+  border: 2px solid #59A5D8;
   text-transform: uppercase;
   color: #fff;
 }
 
 #hero .btn-get-started:hover {
-  background: #94c045;
+  background: #59A5D8;
 }
 
 @media (min-width: 1024px) {
@@ -514,7 +514,7 @@ section {
 .about .count-box i {
   display: block;
   font-size: 48px;
-  color: #94c045;
+  color: #59A5D8;
   float: left;
   line-height: 0;
 }
@@ -2173,3 +2173,7 @@ section {
   font-size: 13px;
   color: #fff;
 }
+
+/*--------------------------------------------------------------
+Custom CSS
+--------------------------------------------------------------*/
