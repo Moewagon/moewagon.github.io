@@ -2185,8 +2185,10 @@ a {
   color: #386FA4;
   text-decoration: none;
 }
-.img-fluid {
-  max-width: 100%;
-  height: 298px;
-  width: 370px;
+
+.bg-info {
+  background-color: #386FA4!important;
+}
+.mover {
+  padding-bottom: 12px;
 }
