@@ -464,7 +464,7 @@ section {
 
 .breadcrumbs .breadcrumb-hero {
   text-align: center;
-  background: #0d6efd;
+  background: #2773A5;
   padding: 20px 0;
   color: #fff;
 }
@@ -1167,7 +1167,7 @@ section {
 
 .pricing h4 {
   font-size: 36px;
-  color: #94c045;
+  color: #2773A5;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
   margin-bottom: 20px;
@@ -1217,7 +1217,7 @@ section {
 }
 
 .pricing .btn-buy {
-  background: #94c045;
+  background: #2773A5;
   display: inline-block;
   padding: 6px 35px 8px 35px;
   border-radius: 4px;
@@ -1227,18 +1227,18 @@ section {
   font-weight: 400;
   font-family: "Raleway", sans-serif;
   font-weight: 600;
-  box-shadow: 0 3px 7px rgba(148, 192, 69, 0.4);
+  box-shadow: 0 3px 7px rgba(19, 60, 85, 0.4);
   transition: 0.3s;
 }
 
 .pricing .btn-buy:hover {
-  background: #aacd6b;
+  background: #386FA4;
 }
 
 .pricing .featured h3 {
   color: #fff;
-  background: #94c045;
-  box-shadow: 0 3px 7px rgba(148, 192, 69, 0.4);
+  background: #386FA4;
+  box-shadow: 0 3px 7px rgba(19, 60, 85, 0.4);
 }
 
 .pricing .advanced {
@@ -1250,7 +1250,7 @@ section {
   z-index: 1;
   font-size: 14px;
   padding: 1px 0 3px 0;
-  background: #94c045;
+  background: #2773A5;
   color: #fff;
 }
 
