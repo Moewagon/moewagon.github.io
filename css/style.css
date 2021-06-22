@@ -575,9 +575,15 @@ section {
   position: relative;
 }
 
+<<<<<<< Updated upstream
 .about .content ul i {
   font-size: 24px;
   color: #94c045;
+=======
+.about .content ul svg {
+  font-size: 24px;
+  color: #4566c0;
+>>>>>>> Stashed changes
   position: absolute;
   left: 0;
   top: -2px;
@@ -590,7 +596,11 @@ section {
 .about .play-btn {
   width: 94px;
   height: 94px;
+<<<<<<< Updated upstream
   background: radial-gradient(#94c045 50%, rgba(148, 192, 69, 0.4) 52%);
+=======
+  background: radial-gradient(#386FA4 50%, rgba(132, 210, 246, 0.4) 52%);
+>>>>>>> Stashed changes
   border-radius: 50%;
   display: block;
   position: absolute;
@@ -631,14 +641,22 @@ section {
   animation-timing-function: steps;
   opacity: 1;
   border-radius: 50%;
+<<<<<<< Updated upstream
   border: 5px solid rgba(148, 192, 69, 0.7);
+=======
+  border: 5px solid rgba(69, 98, 192, 0.7);
+>>>>>>> Stashed changes
   top: -15%;
   left: -15%;
   background: rgba(198, 16, 0, 0);
 }
 
 .about .play-btn:hover::after {
+<<<<<<< Updated upstream
   border-left: 15px solid #94c045;
+=======
+  border-left: 15px solid #4547c0;
+>>>>>>> Stashed changes
   transform: scale(20);
 }
 
@@ -894,11 +912,19 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
+<<<<<<< Updated upstream
   border: 1px solid #94c045;
 }
 
 .clients .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #94c045;
+=======
+  border: 1px solid #4566c0;
+}
+
+.clients .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #4566c0;
+>>>>>>> Stashed changes
 }
 
 /*--------------------------------------------------------------
