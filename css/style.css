@@ -1,4 +1,4 @@
-@font-face {
+/*@font-face {
   font-family: "Poppins-Regular";
   src: url("../fonts/poppins/Poppins-Regular.ttf"); }
 @font-face {
@@ -7,7 +7,7 @@
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  box-sizing: border-box; }
+  box-sizing: border-box; }*/
 
 
 
@@ -450,7 +450,7 @@ section {
   font-weight: 600;
   margin-bottom: 20px;
   padding-bottom: 0;
-  font-family: "Poppins", sans-serif;
+  /*font-family: "Poppins", sans-serif;*/
   color: #646c55;
 }
 
@@ -546,7 +546,7 @@ section {
   margin-top: 20px;
   color: #646c55;
   font-size: 15px;
-  font-family: "Poppins", sans-serif;
+  /*font-family: "Poppins", sans-serif;*/
   transition: ease-in-out 0.3s;
 }
 
@@ -813,7 +813,7 @@ section {
   font-weight: 700;
   font-size: 26px;
   color: #3c4133;
-  font-family: "Poppins", sans-serif;
+  /*font-family: "Poppins", sans-serif;*/
 }
 
 .skills .content ul {
@@ -848,7 +848,7 @@ section {
   text-transform: uppercase;
   display: block;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
+  /*ont-family: "Poppins", sans-serif;*/
   color: #3c4133;
 }
 
@@ -1172,8 +1172,7 @@ section {
   font-size: 36px;
   color: #94c045;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
-  margin-bottom: 20px;
+  /*font-family: "Poppins", sans-serif;*/
 }
 
 .pricing h4 sup {
@@ -1284,7 +1283,7 @@ section {
   line-height: 26px;
   font-weight: 500;
   margin: 0 0 10px 28px;
-  font-family: "Poppins", sans-serif;
+  /*font-family: "Poppins", sans-serif;*/
 }
 
 .faq .faq-item p {
@@ -2177,15 +2176,15 @@ section {
   color: #fff;
 }
 body {
-  font-family: "Poppins-Regular";
+  /*font-family: "Poppins-Regular";*/
   color: #333;
   font-size: 13px;
   margin: 0; }
 
 input, textarea, select, button {
-  font-family: "Poppins-Regular";
+ /*font-family: "Poppins-Regular";*/
   color: #333;
-  font-size: 13px; }
+  /*font-size: 13px;*/ }
 
 p, h1, h2, h3, h4, h5, h6, ul {
   margin: 0; }
@@ -2226,7 +2225,7 @@ a:hover {
   .inner h3 {
     text-transform: uppercase;
     font-size: 25px;
-    font-family: "Poppins-SemiBold";
+    /*font-family: "Poppins-SemiBold";*/
     text-align: center;
     margin-bottom: 28px; }
 
@@ -2257,19 +2256,19 @@ a:hover {
   .form-control::-webkit-input-placeholder {
     font-size: 13px;
     color: #333;
-    font-family: "Poppins-Regular"; }
+    /*font-family: "Poppins-Regular";*/ }
   .form-control::-moz-placeholder {
     font-size: 13px;
     color: #333;
-    font-family: "Poppins-Regular"; }
+    /*font-family: "Poppins-Regular";*/ }
   .form-control:-ms-input-placeholder {
     font-size: 13px;
     color: #333;
-    font-family: "Poppins-Regular"; }
+    /*font-family: "Poppins-Regular";*/ }
   .form-control:-moz-placeholder {
     font-size: 13px;
     color: #333;
-    font-family: "Poppins-Regular"; }
+    /*font-family: "Poppins-Regular";*/ }
 
 select {
   -moz-appearance: none;
