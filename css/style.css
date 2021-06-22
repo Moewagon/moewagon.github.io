@@ -1,4 +1,4 @@
-/*@font-face {
+@font-face {
   font-family: "Poppins-Regular";
   src: url("../fonts/poppins/Poppins-Regular.ttf"); }
 @font-face {
@@ -7,7 +7,7 @@
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  box-sizing: border-box; }*/
+  box-sizing: border-box; }
 
 
 
@@ -450,7 +450,7 @@ section {
   font-weight: 600;
   margin-bottom: 20px;
   padding-bottom: 0;
-  /*font-family: "Poppins", sans-serif;*/
+  font-family: "Poppins", sans-serif;
   color: #646c55;
 }
 
@@ -546,7 +546,7 @@ section {
   margin-top: 20px;
   color: #646c55;
   font-size: 15px;
-  /*font-family: "Poppins", sans-serif;*/
+  font-family: "Poppins", sans-serif;
   transition: ease-in-out 0.3s;
 }
 
@@ -575,15 +575,9 @@ section {
   position: relative;
 }
 
-<<<<<<< Updated upstream
 .about .content ul i {
   font-size: 24px;
   color: #94c045;
-=======
-.about .content ul svg {
-  font-size: 24px;
-  color: #4566c0;
->>>>>>> Stashed changes
   position: absolute;
   left: 0;
   top: -2px;
@@ -596,11 +590,7 @@ section {
 .about .play-btn {
   width: 94px;
   height: 94px;
-<<<<<<< Updated upstream
   background: radial-gradient(#94c045 50%, rgba(148, 192, 69, 0.4) 52%);
-=======
-  background: radial-gradient(#386FA4 50%, rgba(132, 210, 246, 0.4) 52%);
->>>>>>> Stashed changes
   border-radius: 50%;
   display: block;
   position: absolute;
@@ -641,22 +631,14 @@ section {
   animation-timing-function: steps;
   opacity: 1;
   border-radius: 50%;
-<<<<<<< Updated upstream
   border: 5px solid rgba(148, 192, 69, 0.7);
-=======
-  border: 5px solid rgba(69, 98, 192, 0.7);
->>>>>>> Stashed changes
   top: -15%;
   left: -15%;
   background: rgba(198, 16, 0, 0);
 }
 
 .about .play-btn:hover::after {
-<<<<<<< Updated upstream
   border-left: 15px solid #94c045;
-=======
-  border-left: 15px solid #4547c0;
->>>>>>> Stashed changes
   transform: scale(20);
 }
 
@@ -831,7 +813,7 @@ section {
   font-weight: 700;
   font-size: 26px;
   color: #3c4133;
-  /*font-family: "Poppins", sans-serif;*/
+  font-family: "Poppins", sans-serif;
 }
 
 .skills .content ul {
@@ -866,7 +848,7 @@ section {
   text-transform: uppercase;
   display: block;
   font-weight: 600;
-  /*ont-family: "Poppins", sans-serif;*/
+  font-family: "Poppins", sans-serif;
   color: #3c4133;
 }
 
@@ -912,19 +894,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-<<<<<<< Updated upstream
   border: 1px solid #94c045;
 }
 
 .clients .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #94c045;
-=======
-  border: 1px solid #4566c0;
-}
-
-.clients .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #4566c0;
->>>>>>> Stashed changes
 }
 
 /*--------------------------------------------------------------
@@ -1198,7 +1172,8 @@ section {
   font-size: 36px;
   color: #94c045;
   font-weight: 600;
-  /*font-family: "Poppins", sans-serif;*/
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 20px;
 }
 
 .pricing h4 sup {
@@ -1309,7 +1284,7 @@ section {
   line-height: 26px;
   font-weight: 500;
   margin: 0 0 10px 28px;
-  /*font-family: "Poppins", sans-serif;*/
+  font-family: "Poppins", sans-serif;
 }
 
 .faq .faq-item p {
@@ -2202,15 +2177,15 @@ section {
   color: #fff;
 }
 body {
-  /*font-family: "Poppins-Regular";*/
+  font-family: "Poppins-Regular";
   color: #333;
   font-size: 13px;
   margin: 0; }
 
 input, textarea, select, button {
- /*font-family: "Poppins-Regular";*/
+  font-family: "Poppins-Regular";
   color: #333;
-  /*font-size: 13px;*/ }
+  font-size: 13px; }
 
 p, h1, h2, h3, h4, h5, h6, ul {
   margin: 0; }
@@ -2251,7 +2226,7 @@ a:hover {
   .inner h3 {
     text-transform: uppercase;
     font-size: 25px;
-    /*font-family: "Poppins-SemiBold";*/
+    font-family: "Poppins-SemiBold";
     text-align: center;
     margin-bottom: 28px; }
 
@@ -2282,19 +2257,19 @@ a:hover {
   .form-control::-webkit-input-placeholder {
     font-size: 13px;
     color: #333;
-    /*font-family: "Poppins-Regular";*/ }
+    font-family: "Poppins-Regular"; }
   .form-control::-moz-placeholder {
     font-size: 13px;
     color: #333;
-    /*font-family: "Poppins-Regular";*/ }
+    font-family: "Poppins-Regular"; }
   .form-control:-ms-input-placeholder {
     font-size: 13px;
     color: #333;
-    /*font-family: "Poppins-Regular";*/ }
+    font-family: "Poppins-Regular"; }
   .form-control:-moz-placeholder {
     font-size: 13px;
     color: #333;
-    /*font-family: "Poppins-Regular";*/ }
+    font-family: "Poppins-Regular"; }
 
 select {
   -moz-appearance: none;

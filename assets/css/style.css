@@ -572,15 +572,9 @@ section {
   position: relative;
 }
 
-<<<<<<< Updated upstream
 .about .content ul i {
   font-size: 24px;
   color: #84D2F6;
-=======
-.about .content ul svg {
-  font-size: 24px;
-  color: #4566c0;
->>>>>>> Stashed changes
   position: absolute;
   left: 0;
   top: -2px;
@@ -897,19 +891,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-<<<<<<< Updated upstream
   border: 1px solid #94c045;
 }
 
 .clients .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #94c045;
-=======
-  border: 1px solid #4551c0;
-}
-
-.clients .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #4547c0;
->>>>>>> Stashed changes
 }
 
 /*--------------------------------------------------------------
