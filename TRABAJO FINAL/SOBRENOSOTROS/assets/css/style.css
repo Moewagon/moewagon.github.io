@@ -2221,7 +2221,7 @@ section {
 }
 
 .navbar .getstarted {
-    background: #59A5D8;
+    background: #4566c0;
     padding: 8px 25px;
     margin-left: 30px;
     border-radius: 50px;
@@ -2229,7 +2229,7 @@ section {
 
     .navbar .getstarted:hover {
         color: #fff;
-        background: #84D2F6;
+        background: rgb(118, 149, 252);
     }
 
 
