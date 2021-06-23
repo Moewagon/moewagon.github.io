@@ -1,28 +1,15 @@
-@font-face {
-  font-family: "Poppins-Regular";
-  src: url("../fonts/poppins/Poppins-Regular.ttf"); }
-@font-face {
-  font-family: "Poppins-SemiBold";
-  src: url("../fonts/poppins/Poppins-SemiBold.ttf"); }
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box; }
-
-
-
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
 }
 
 a {
-  color: #94c045;
+  color: #59A5D8;
   text-decoration: none;
 }
 
 a:hover {
-  color: #aacd6b;
+  color: #59A5D8;
   text-decoration: none;
 }
 
@@ -150,11 +137,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #94c045;
+  color: #59A5D8;
 }
 
 .navbar .getstarted {
-  background: #94c045;
+  background: #59A5D8;
   padding: 8px 25px;
   margin-left: 30px;
   border-radius: 50px;
@@ -163,7 +150,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .navbar .getstarted:hover {
   color: #fff;
-  background: #9fc658;
+  background: #59A5D8;
 }
 
 .navbar .dropdown ul {
@@ -196,7 +183,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar .dropdown ul a:hover, .navbar .dropdown ul .active:hover, .navbar .dropdown ul li:hover > a {
-  color: #94c045;
+  color: #59A5D8;
 }
 
 .navbar .dropdown:hover > ul {
@@ -290,7 +277,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-mobile a:hover, .navbar-mobile .active, .navbar-mobile li:hover > a {
-  color: #94c045;
+  color: #59A5D8;
 }
 
 .navbar-mobile .getstarted {
@@ -322,7 +309,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-mobile .dropdown ul a:hover, .navbar-mobile .dropdown ul .active:hover, .navbar-mobile .dropdown ul li:hover > a {
-  color: #94c045;
+  color: #59A5D8;
 }
 
 .navbar-mobile .dropdown > .dropdown-active {
@@ -389,13 +376,13 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50px;
   transition: 0.5s;
   margin: 10px;
-  border: 2px solid #94c045;
+  border: 2px solid #59A5D8;
   text-transform: uppercase;
   color: #fff;
 }
 
 #hero .btn-get-started:hover {
-  background: #94c045;
+  background: #59A5D8;
 }
 
 @media (min-width: 1024px) {
@@ -450,7 +437,7 @@ section {
   font-weight: 600;
   margin-bottom: 20px;
   padding-bottom: 0;
-  font-family: "Poppins", sans-serif;
+  font-family: sans-serif;
   color: #646c55;
 }
 
@@ -467,7 +454,7 @@ section {
 
 .breadcrumbs .breadcrumb-hero {
   text-align: center;
-  background: #94c045;
+  background: #59A5D8;
   padding: 20px 0;
   color: #fff;
 }
@@ -546,7 +533,7 @@ section {
   margin-top: 20px;
   color: #646c55;
   font-size: 15px;
-  font-family: "Poppins", sans-serif;
+  font-family: sans-serif;
   transition: ease-in-out 0.3s;
 }
 
@@ -577,7 +564,7 @@ section {
 
 .about .content ul i {
   font-size: 24px;
-  color: #94c045;
+  color: #59A5D8;
   position: absolute;
   left: 0;
   top: -2px;
@@ -590,7 +577,7 @@ section {
 .about .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(#94c045 50%, rgba(148, 192, 69, 0.4) 52%);
+  background: radial-gradient(#59A5D8 50%, #59A5D8 52%);
   border-radius: 50%;
   display: block;
   position: absolute;
@@ -631,14 +618,14 @@ section {
   animation-timing-function: steps;
   opacity: 1;
   border-radius: 50%;
-  border: 5px solid rgba(148, 192, 69, 0.7);
+  border: 5px solid #59A5D8;
   top: -15%;
   left: -15%;
   background: rgba(198, 16, 0, 0);
 }
 
 .about .play-btn:hover::after {
-  border-left: 15px solid #94c045;
+  border-left: 15px solid #59A5D8;
   transform: scale(20);
 }
 
@@ -686,7 +673,7 @@ section {
 # Cta
 --------------------------------------------------------------*/
 .cta {
-  background: #86b03c;
+  background: #59A5D8;
   padding: 50px 0;
 }
 
@@ -715,8 +702,8 @@ section {
 }
 
 .cta .cta-btn:hover {
-  background: #aacd6b;
-  border-color: #aacd6b;
+  background: #59A5D8;
+  border-color: #59A5D8;
 }
 
 /*--------------------------------------------------------------
@@ -813,7 +800,7 @@ section {
   font-weight: 700;
   font-size: 26px;
   color: #3c4133;
-  font-family: "Poppins", sans-serif;
+  font-family: sans-serif;
 }
 
 .skills .content ul {
@@ -848,7 +835,7 @@ section {
   text-transform: uppercase;
   display: block;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
+  font-family: sans-serif;
   color: #3c4133;
 }
 
@@ -1172,7 +1159,7 @@ section {
   font-size: 36px;
   color: #94c045;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
+  font-family: sans-serif;
   margin-bottom: 20px;
 }
 
@@ -1284,7 +1271,7 @@ section {
   line-height: 26px;
   font-weight: 500;
   margin: 0 0 10px 28px;
-  font-family: "Poppins", sans-serif;
+  font-family: sans-serif;
 }
 
 .faq .faq-item p {
@@ -2020,14 +2007,14 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #141611;
+  background: #0F2F43;
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
 }
 
 #footer .footer-top {
-  background: #1c1f18;
+  background: #133C55;
   padding: 60px 0 30px 0;
 }
 
@@ -2042,7 +2029,7 @@ section {
   line-height: 1;
   font-weight: 600;
   letter-spacing: 3px;
-  color: #9fc658;
+  color: #2773A5;
 }
 
 #footer .footer-top .footer-info p {
@@ -2055,7 +2042,7 @@ section {
 
 #footer .footer-top .social-links a {
   display: inline-block;
-  background: #3c4133;
+  background: #91E5F6;
   color: #fff;
   line-height: 1;
   margin-right: 4px;
@@ -2075,7 +2062,7 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #94c045;
+  background: #2773A5;
   color: #fff;
   text-decoration: none;
 }
@@ -2103,7 +2090,7 @@ section {
 }
 
 #footer .footer-top h4::after {
-  background: #94c045;
+  background: #84D2F6;
   width: 60px;
 }
 
@@ -2127,7 +2114,7 @@ section {
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #94c045;
+  color: #2773A5;
 }
 
 #footer .footer-top .footer-contact {
@@ -2150,7 +2137,7 @@ section {
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"] {
-  background: #94c045;
+  background: #386FA4;
   border: 0;
   border-radius: 0 4px 4px 0;
   width: 35%;
@@ -2162,7 +2149,7 @@ section {
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"]:hover {
-  background: #789d35;
+  background: #84D2F6;
 }
 
 #footer .copyright {
@@ -2176,14 +2163,18 @@ section {
   font-size: 13px;
   color: #fff;
 }
+
+/*--------------------------------------------------------------
+Custom CSS
+--------------------------------------------------------------*/
 body {
-  font-family: "Poppins-Regular";
+  font-family: sans-serif;
   color: #333;
   font-size: 13px;
   margin: 0; }
 
 input, textarea, select, button {
-  font-family: "Poppins-Regular";
+  font-family: sans-serif;
   color: #333;
   font-size: 13px; }
 
@@ -2226,7 +2217,7 @@ a:hover {
   .inner h3 {
     text-transform: uppercase;
     font-size: 25px;
-    font-family: "Poppins-SemiBold";
+    font-family: sans-serif;
     text-align: center;
     margin-bottom: 28px; }
 
@@ -2257,19 +2248,19 @@ a:hover {
   .form-control::-webkit-input-placeholder {
     font-size: 13px;
     color: #333;
-    font-family: "Poppins-Regular"; }
+    font-family: sans-serif; }
   .form-control::-moz-placeholder {
     font-size: 13px;
     color: #333;
-    font-family: "Poppins-Regular"; }
+    font-family: sans-serif; }
   .form-control:-ms-input-placeholder {
     font-size: 13px;
     color: #333;
-    font-family: "Poppins-Regular"; }
+    font-family: sans-serif; }
   .form-control:-moz-placeholder {
     font-size: 13px;
     color: #333;
-    font-family: "Poppins-Regular"; }
+    font-family: sans-serif; }
 
 select {
   -moz-appearance: none;
