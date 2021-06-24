@@ -1455,7 +1455,7 @@ section {
   height: 40px;
   opacity: 0;
   transition: bottom ease-in-out 0.4s;
-  background: rgba(148, 192, 69, 0.8);
+  /*background: rgba(148, 192, 69, 0.8);*/
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1471,7 +1471,7 @@ section {
 }
 
 .team .member .social a:hover {
-  color: #94c045;
+  color: #2773A5;
 }
 
 .team .member .social i {
@@ -1491,7 +1491,7 @@ section {
   text-transform: uppercase;
   font-weight: 400;
   margin-bottom: 15px;
-  color: #94c045;
+  color: #2773A5;
 }
 
 .team .member .member-info p {
