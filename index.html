@@ -24,6 +24,19 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
+  <!--coockkies bb-->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+
+  <!-- Bootstrap 4.1.1 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.min.css">
+
+  <!-- cookiealert styles -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Wruczek/Bootstrap-Cookie-Alert@gh-pages/cookiealert.css">
+
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
@@ -36,6 +49,35 @@
 </head>
 
 <body>
+
+
+  <!-- START Bootstrap-Cookie-Alert -->
+  <div class="alert text-center cookiealert" role="alert">
+      <b>Nuestras cookies?</b> &#x1F36A; El Usuario puede deshabilitar, rechazar y eliminar las cookies —total o parcialmente— instaladas en su dispositivo mediante la configuración de su navegador (entre los que se encuentran, por ejemplo, Chrome, Firefox, Safari, Explorer). En este sentido, los procedimientos para rechazar y eliminar las cookies pueden diferir de un navegador de Internet a otro. En consecuencia, el Usuario debe acudir a las instrucciones facilitadas por el propio navegador de Internet que esté utilizando. En el supuesto de que rechace el uso de cookies —total o parcialmente— podrá seguir usando el Sitio Web, si bien podrá tener limitada la utilización de algunas de las prestaciones del mismo. <a href="coockies leer mas.html" target="_blank">saber mas</a>
+  
+      <button type="button" class="btn btn-primary btn-sm acceptcookies">
+          Aceptar
+      </button>
+      <button type="button" class="btn btn-primary btn-sm acceptcookies">
+          Rechazar
+      </button>
+  </div>
+  <!-- END Bootstrap-Cookie-Alert -->
+  
+  <!-- JAVASCRIPT -->
+  
+  <!-- Only for the demo -->
+  <script>
+      for (var i = 1; i <= 150; i++)
+          document.querySelector("#fillme").innerHTML += " ";
+  </script>
+  
+  <!-- Include cookiealert script -->
+  <script src="https://cdn.jsdelivr.net/gh/Wruczek/Bootstrap-Cookie-Alert@gh-pages/cookiealert.js"></script>
+  
+  </body>
+<body>
+  
 
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top d-flex align-items-center">
